@@ -2,19 +2,22 @@
 <img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
 </div>
 
-# Run and deploy your AI Studio app
+# SB International Hotel Website
 
-This contains everything you need to run your app locally.
+This repository contains the static website for the SB International Hotel. It is a single-page website built with HTML, CSS, and JavaScript, using Tailwind CSS for styling.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1AFKX6kxTZC-4L5qkcnWA40BtBF-ka3rr
+This project was converted from a React/TypeScript application to a static website for easy deployment and maintenance.
 
-## Run Locally
+## View Locally
 
-**Prerequisites:**  Node.js
+To view the website, simply open the `index.html` file in your web browser. No special setup or dependencies are required.
 
+1.  Clone this repository.
+2.  Open the `index.html` file in your browser.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Technologies Used
+
+- **HTML5**
+- **CSS3**
+- **JavaScript**
+- **Tailwind CSS** (via CDN)
