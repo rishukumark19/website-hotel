@@ -45,4 +45,28 @@ document.addEventListener('DOMContentLoaded', () => {
             header.classList.remove('scrolled');
         }
     });
+
+    // Hero Slideshow
+    const slides = document.querySelectorAll('#hero-slideshow .slide');
+    let currentSlide = 0;
+
+    function showSlide(index) {
+        slides.forEach((slide, i) => {
+            if (i === index) {
+                slide.classList.add('active');
+            } else {
+                slide.classList.remove('active');
+            }
+        });
+    }
+
+    function nextSlide() {
+        currentSlide = (currentSlide + 1) % slides.length;
+        showSlide(currentSlide);
+    }
+
+    if (slides.length > 0) {
+        showSlide(currentSlide);
+        setInterval(nextSlide, 5000); // Change slide every 5 seconds
+    }
 });

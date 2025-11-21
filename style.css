@@ -50,3 +50,7 @@ body {
 #mobile-menu-btn.open #menu-icon-close {
     opacity: 1;
 }
+
+#hero-slideshow .slide.active {
+    opacity: 1;
+}
